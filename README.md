@@ -35,4 +35,5 @@ Deploy the Smart Contract: Use tools like Remix or Truffle to deploy this smart 
 Develop the Frontend: Create a frontend application using a framework like React.js to interact with this smart contract. Use libraries like web3.js or ethers.js to connect the frontend with the Ethereum network.
 ![Index Page](https://github.com/abhishek7796/CODTECH-TASK2/assets/120003948/24763675-420d-4d1a-885a-b046e3841271)
 Integration: Integrate the frontend with the backend to create a seamless user experience for tracking and managing products in the supply chain.
+![Index Page 2](https://github.com/abhishek7796/CODTECH-TASK2/assets/120003948/edc4538b-2679-4bd2-8944-11df3d27f6eb)
 
