@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply Chain Tracking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Track Item</a></li>
+                <li><a href="#">Order Item</a></li>
+                <li><a href="#">Approve Item</a></li>
+                <li><a href="#">Cancel Item</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="track-item">
+            <h2>Track Item</h2>
+            <form>
+                <label for="item-id">Item ID:</label>
+                <input type="number" id="item-id" name="item-id">
+                <button type="submit">Track</button>
+            </form>
+            <div class="item-details">
+                <h3>Item Details:</h3>
+                <p id="item-name"></p>
+                <p id="item-status"></p>
+                <p id="item-location"></p>
+            </div>
+        </section>
+        <section class="order-item">
+            <h2>Order Item</h2>
+            <form>
+                <label for="item-name">Item Name:</label>
+                <input type="text" id="item-name" name="item-name">
+                <label for="item-quantity">Quantity:</label>
+                <input type="number" id="item-quantity" name="item-quantity">
+                <button type="submit">Order</button>
+            </form>
+        </section>
+        <section class="approve-item">
+            <h2>Approve Item</h2>
+            <form>
+                <label for="item-id-approve">Item ID:</label>
+                <input type="number" id="item-id-approve" name="item-id-approve">
+                <button type="submit">Approve</button>
+            </form>
+        </section>
+        <section class="cancel-item">
+            <h2>Cancel Item</h2>
+            <form>
+                <label for="item-id-cancel">Item ID:</label>
+                <input type="number" id="item-id-cancel" name="item-id-cancel">
+                <button type="submit">Cancel</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
